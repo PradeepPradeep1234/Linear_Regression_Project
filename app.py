@@ -11,10 +11,12 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 sns.set(style="whitegrid")
 
 
-df = pd.read_csv("dataset/Ecommerce Customers")
+df = pd.read_csv("dataset/Ecommerce_Customers.csv")
 
 print("first 5 data:\n")
 print(df.head())
+print(" Dataset shape")
+print(df.shape)
 print("\n Column Info:")
 print(df.info())
 print("\n Summary Statistics:")
